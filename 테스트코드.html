@@ -1,0 +1,1101 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://pluszero.co.kr/static/css/bootstrap/bootstrap.min.abe91756d18b.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://pluszero.co.kr/static/css/bootstrap-icons-1.7.2/bootstrap-icons.685e99707b60.css">
+
+    <link rel="stylesheet" type="text/css" href="https://pluszero.co.kr/static/css/pz_official.100d0727341a.css">
+    
+
+    <link rel="stylesheet" type="text/css" href="https://pluszero.co.kr/static/css/aos.847da8fca806.css">
+
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-navbar">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="/"><img
+                    src="https://pluszero.co.kr/static/img/plus-zero-logo.99b73b22e87a.svg" alt="pluszero"
+                    style="height: 24px;"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item nav">
+                        <a class="nav-link" aria-current="page" href="#">블로그</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarResource" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">리소스</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarResource">
+                            <li>
+                                <a class="dropdown-item" href="#">Naver 키워드 도구</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">데이터스튜디오 with 빅쿼리</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">회사소개서</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarSocial" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">소셜</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarSocial">
+                            <li>
+                                <a class="dropdown-item" href="#" target="_blank">GA360
+                                    커뮤니티</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" target="_blank"><i
+                                        class="bi bi-bootstrap-fill"></i>&nbsp;네이버 블로그</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"
+                                    target="_blank"><i class="bi bi-youtube"></i>&nbsp;YouTube</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"
+                                    target="_blank"><i class="bi bi-facebook"></i>&nbsp;Facebook</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"
+                                    target="_blank"><i class="bi bi-linkedin"></i>&nbsp;LinkedIn</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--li class="nav-item">
+                    <a class="nav-link" href="#">자격증</a>
+                </li-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">채용공고</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link at-element-marker" href="#"><em><strong>문의하기</strong></em></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://pluszero.co.kr/static/css/animate.min.dafe25d5b35f.css">
+    <style>
+        
+        .sticky-navbar {
+            position: fixed !important;
+        }
+
+        body {
+            touch-action: none;
+        }
+
+        textarea {
+            touch-action: pan-y;
+        }
+
+        iframe,
+        img,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            touch-action: pan-x;
+        }
+
+        body {
+            height: 100vh;
+            position: fixed;
+        }
+
+        footer {
+            display: none;
+            padding: 0;
+        }
+
+        label>sup {
+            color: red;
+        }
+
+        #onepage {
+            width: 100vw;
+            touch-action: none;
+        }
+
+        #onepage>section.section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #onepage>section.section>.container {
+            height: 100vh;
+            position: relative;
+        }
+
+        #onepage>section.section>.container>.title {
+            position: absolute;
+            top: 11vh;
+            right: 50%;
+            transform: translateX(50%);
+            width: inherit;
+            text-align: center;
+        }
+
+        #onepage>section.section>.container>.title>h2 {
+            font-size: 32px;
+            font-weight: bold;
+            line-height: 1.21875;
+            letter-spacing: -1px;
+        }
+
+        #onepage>section.section>.container>.title>p {
+            font-size: 21px;
+            line-height: 1.2858;
+        }
+
+        #onepage>section.section>.container>.content {
+            position: absolute;
+            top: 27vh;
+            right: 50%;
+            transform: translateX(50%);
+            width: inherit;
+        }
+
+        .animate__animated {
+            opacity: 0;
+        }
+
+        .card {
+            background-color: #fff;
+            border: none;
+            border-radius: 18px;
+            box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+            width: 309px;
+            min-height: 350px;
+            margin-bottom: 12px;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 17px;
+        }
+
+        .card-img-bottom {
+            max-width: 150px;
+            max-height: 150px;
+            object-fit: contain;
+            margin-top: auto;
+            margin-right: 2rem;
+            margin-bottom: 2rem;
+            margin-left: auto;
+        }
+
+        .overflow-x {
+            list-style: none;
+            display: flex;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            touch-action: pan-x;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            position: relative;
+        }
+
+        .overflow-x::-webkit-scrollbar {
+            display: none;
+        }
+
+        .overflow-x>li {
+            display: flex;
+            justify-content: center;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .overflow-x>li:first-of-type {
+            margin-left: 0;
+            padding-left: 11px;
+        }
+
+        .overflow-x>li:last-of-type {
+            margin-right: 0;
+            padding-right: 11px;
+        }
+
+        .prev {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 48px;
+            height: 48px;
+            z-index: 1;
+            transition: opacity .3s;
+            left: 0;
+        }
+
+        .next {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 48px;
+            height: 48px;
+            z-index: 1;
+            transition: opacity .3s;
+            right: 0;
+        }
+
+        .prev>i,
+        .next>i {
+            color: white;
+            font-size: 24px;
+        }
+
+        .scroll-snap-x {
+            scroll-snap-type: x mandatory;
+        }
+
+        .scroll-snap-x>* {
+            scroll-snap-align: center;
+        }
+
+        #index {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #index>input {
+            margin: 4px;
+        }
+
+        #index>input:checked {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-color: white;
+            border: 4px solid var(--primary);
+            border-radius: 50%;
+            width: 13px;
+            height: 13px;
+        }
+
+        #video {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            filter: opacity(0.5);
+        }
+
+        #top {
+            background-color: black;
+        }
+
+        #top .diagonal {
+            position: relative;
+            -webkit-transform: skew(-25deg);
+            -moz-transform: skew(-25deg);
+            -o-transform: skew(-25deg);
+            transform: skew(-25deg);
+            backdrop-filter: blur(8px) contrast(65%) saturate(125%);
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #top .headline {
+            position: absolute;
+            top: 50%;
+            /*left: 10vw;
+    transform: translateY(-50%);*/
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #top .headline>h1 {
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: -2px;
+            line-height: 1.21875;
+            color: white;
+            text-align: center;
+        }
+
+        #successstory {
+            background-color: #f5f5f7;
+        }
+
+        #successstory .tab {
+            width: 120px;
+            height: 100px;
+            cursor: pointer;
+        }
+
+        #successstory .tab>img {
+            transition: filter 300ms, transform 300ms;
+            width: 100%;
+            height: 97px;
+            object-fit: contain;
+        }
+
+        #successstory .tab:not(.active)>img {
+            filter: grayscale(100%);
+            transform: scale(.5);
+        }
+
+        #successstory .tab.active {
+            border-bottom: 3px solid var(--primary);
+            transform: none;
+        }
+
+        #successstory .panels {
+            padding: 1rem;
+            /*background-color: #f5f5f7;*/
+            background-color: white;
+            border-top: 1px solid #6e6e73;
+        }
+
+        #successstory .panels>.panel {
+            display: none;
+            height: 45vh;
+        }
+
+        #successstory .panels>.panel.active {
+            display: block;
+        }
+
+        #successstory .panels>.panel .sub-title {
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+
+        #successstory .panels>.panel .sub-content {}
+
+        #partners {
+            background-color: #f5f5f7;
+        }
+
+        #partners .reference {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        #partners .reference>.slogan {
+            padding: 0 2rem;
+        }
+
+        #partners .slogan>p {
+            margin-bottom: 0;
+        }
+
+        #partners .slogan>p:nth-of-type(1) {
+            font-size: 32px;
+            font-weight: bold;
+            line-height: 1.21875;
+        }
+
+        #partners .slogan>p:nth-of-type(2) {
+            font-size: 32px;
+            font-weight: bold;
+            line-height: 1.21875;
+        }
+
+        #partners .slogan>p:nth-of-type(3) {
+            font-size: 17px;
+            line-height: 1.3529611765;
+        }
+
+        #partners .slogan>p:nth-of-type(4) {
+            font-size: 17px;
+            line-height: 1.3529611765;
+        }
+
+        #partners .slogan>p:nth-of-type(5) {
+            font-size: 17px;
+            line-height: 1.3529611765;
+            text-align: end;
+        }
+
+        #partners .logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: .5rem;
+        }
+
+        #partners .logos>.logo {
+            display: flex;
+            flex: 0 0 calc((100% / 3) - 1rem);
+            justify-content: center;
+            align-items: center;
+            border-radius: 18px;
+            background-color: #fff;
+            padding: .5rem;
+            min-height: unset;
+            margin-bottom: 6px;
+        }
+
+        #partners .logos>.logo:nth-child(n+13) {
+            display: none;
+        }
+
+        #partners .logos>.logo>img {
+            width: 65px;
+            height: 65px;
+            object-fit: contain;
+            margin: auto;
+        }
+
+        #reference {
+            background-color: #f5f5f7;
+        }
+
+        #reference .reference {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        #reference .reference>.slogan {
+            padding: 0 2rem;
+        }
+
+        #reference .slogan>p {
+            margin-bottom: 0;
+        }
+
+        #reference .slogan>p:nth-of-type(1) {
+            font-size: 32px;
+            font-weight: bold;
+            line-height: 1.21875;
+        }
+
+        #reference .slogan>p:nth-of-type(2) {
+            font-size: 32px;
+            font-weight: bold;
+            line-height: 1.21875;
+        }
+
+        #reference .slogan>p:nth-of-type(3) {
+            font-size: 17px;
+            line-height: 1.3529611765;
+        }
+
+        #reference .slogan>p:nth-of-type(4) {
+            font-size: 17px;
+            line-height: 1.3529611765;
+        }
+
+        #reference .slogan>p:nth-of-type(5) {
+            font-size: 17px;
+            line-height: 1.3529611765;
+            text-align: end;
+        }
+
+        #reference .logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: .5rem;
+        }
+
+        #reference .logos>.logo {
+            display: flex;
+            flex: 0 0 calc((100% / 3) - 1rem);
+            justify-content: center;
+            align-items: center;
+            border-radius: 18px;
+            background-color: #fff;
+            padding: .5rem;
+            min-height: unset;
+            margin-bottom: 6px;
+        }
+
+        #reference .logos>.logo:nth-child(n+13) {
+            display: none;
+        }
+
+        #reference .logos>.logo>img {
+            width: 65px;
+            height: 65px;
+            object-fit: contain;
+            margin: auto;
+        }
+
+        #form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            padding: 0 1rem;
+        }
+
+        #form>.form-col {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            width: 100%;
+        }
+
+        #form textarea {
+            height: 78px;
+        }
+
+        .form-floating {
+            width: calc(50% - 2px);
+        }
+
+        .form-floating:nth-child(1),
+        .form-floating:nth-last-child(2),
+        .form-floating:nth-last-child(1) {
+            flex: 1 0 100%;
+        }
+
+        #id_wagtailcaptcha iframe {
+            border: 1px solid transparent;
+        }
+
+        svg.scroll-down {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+        }
+
+        @media (min-width: 576px) {}
+
+        @media (min-width: 768px) {
+            #top .diagonal {
+                width: 75vw;
+            }
+
+            #top .headline {
+                /*left: 5vw;*/
+                width: 1000px;
+            }
+
+            #top .headline>h1 {
+                font-size: 44px;
+                letter-spacing: -2px;
+                line-height: 1.17865;
+            }
+        }
+
+        @media (min-width: 992px) {}
+
+        @media (min-width: 1200px) {
+            #onepage>section.section>.container>.title>h2 {
+                font-size: 52px;
+                line-height: 1.1875;
+                margin-bottom: 1rem;
+            }
+
+            #onepage>section.section>.container>.title>p {
+                font-size: 28px;
+                line-height: 1.25;
+            }
+
+            #onepage>section.section>.container>.content {
+                top: 32vh;
+            }
+
+            #successstory .overflow-x {}
+
+            #top .diagonal {
+                width: 50vw;
+            }
+
+            #top .headline>h1 {
+                font-size: 48px;
+                letter-spacing: -2px;
+                line-height: 1.17865;
+            }
+
+            #partners .reference>.slogan {
+                flex: 1 1 70%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+
+            #partners .slogan>p:nth-of-type(1) {
+                font-size: 48px;
+                line-height: 1.1875;
+            }
+
+            #partners .slogan>p:nth-of-type(2) {
+                font-size: 48px;
+                line-height: 1.1875;
+            }
+
+            #partners .slogan>p:nth-of-type(3) {
+                font-size: 28px;
+                line-height: 1.25;
+            }
+
+            #partners .slogan>p:nth-of-type(4) {
+                font-size: 28px;
+                line-height: 1.25;
+            }
+
+            #partners .slogan>p:nth-of-type(5) {
+                font-size: 28px;
+                line-height: 1.25;
+            }
+
+            #partners .logos {
+                flex: 0 0 80%;
+                gap: 1rem;
+            }
+
+            #partners .logos>.logo {
+                flex: 0 0 calc(20% - 1rem);
+                padding: .5rem;
+            }
+
+            #partners .logos>.logo:nth-child(n+13) {
+                display: flex;
+            }
+
+            #partners .logos>.logo>img {
+                width: 140px;
+                height: 140px;
+            }
+
+            #reference .reference>.slogan {
+                flex: 1 1 70%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+
+            #reference .slogan>p:nth-of-type(1) {
+                font-size: 48px;
+                line-height: 1.1875;
+            }
+
+            #reference .slogan>p:nth-of-type(2) {
+                font-size: 48px;
+                line-height: 1.1875;
+            }
+
+            #reference .slogan>p:nth-of-type(3) {
+                font-size: 28px;
+                line-height: 1.25;
+            }
+
+            #reference .slogan>p:nth-of-type(4) {
+                font-size: 28px;
+                line-height: 1.25;
+            }
+
+            #reference .slogan>p:nth-of-type(5) {
+                font-size: 28px;
+                line-height: 1.25;
+            }
+
+            #reference .logos {
+                flex: 0 0 80%;
+                gap: 1rem;
+            }
+
+            #reference .logos>.logo {
+                flex: 0 0 calc(20% - 1rem);
+                padding: .5rem;
+            }
+
+            #reference .logos>.logo:nth-child(n+13) {
+                display: flex;
+            }
+
+            #reference .logos>.logo>img {
+                width: 140px;
+                height: 140px;
+            }
+
+            #form>.form-col {
+                flex-direction: column;
+                height: 306px;
+            }
+
+            .form-floating {
+                width: calc(50% - 2px);
+            }
+
+            .form-floating:nth-child(1),
+            .form-floating:nth-last-child(2),
+            .form-floating:nth-last-child(1) {
+                flex: unset;
+            }
+
+            #form textarea {
+                height: 224px;
+            }
+
+            #footer {
+                font-size: 16px;
+            }
+
+        }
+
+        @media (min-width: 1400px) {
+            #top .headline {
+                /*left: 56px;*/
+                width: 1000px;
+            }
+
+            #top .diagonal {
+                width: 75%;
+            }
+
+            #top .headline>h1 {
+                font-size: 56px;
+            }
+
+            .overflow-x .card {
+                transform: translateX(calc((100vw - 1320px) / 2));
+            }
+
+            .card-title {
+                font-size: 28px;
+                letter-spacing: -1px;
+            }
+
+            .card-text {
+                font-size: 17px;
+            }
+
+            #index {
+                right: 1vw;
+            }
+
+            #partners .reference {
+                flex-direction: row;
+            }
+
+            #reference .reference {
+                flex-direction: row;
+            }
+
+        }
+
+        #process {
+            display: none !important;
+            background-color: #f5f5f7;
+        }
+
+        #process img {
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+        }
+
+        #process i {
+            color: var(--primary);
+            font-size: 32px;
+        }
+
+        #process h6 {
+            font-size: 17px;
+        }
+
+        #process p {
+            font-size: 17px;
+            line-height: 100%;
+            margin-bottom: 0;
+        }
+
+        #process .project {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 1320px;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        #process .project .project-arrow {
+            position: relative;
+            width: 100%;
+            height: 8px;
+        }
+
+        #process .project .project-arrow i {
+            position: absolute;
+            top: 50%;
+            left: 90%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+        #process .project .project-row {
+            display: flex;
+            position: relative;
+        }
+
+        #process .project .project-row:nth-of-type(1) {
+            background-color: #f5f5f7;
+        }
+
+        #process .project .project-row:nth-of-type(3) {
+            background-color: #f5f5f7;
+        }
+
+        #process .project .project-row .business-col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+        }
+
+        #process .project .project-row .process {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            width: 80%;
+            padding: 10px;
+        }
+
+        #process .project .project-row .process-2 {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            width: 80%;
+        }
+
+        #process .project .project-row .process-2 .process {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            width: 49.7%;
+        }
+
+        #process .project .project-row .process .process-row {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #process .project .project-row .project-arrow {
+            position: relative;
+            width: 8px;
+            height: 100%;
+        }
+
+        #process .project .project-row .process .process-row .process-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        @media (min-width: 576px) {}
+
+        @media (min-width: 768px) {}
+
+        @media (min-width: 992px) {}
+
+        @media (min-width: 1200px) {
+            #process {
+                display: block !important;
+            }
+        }
+
+        @media (min-width: 1400px) {}
+    </style>
+    <main class="" id="onepage" style="transition: transform 500ms ease 0s; transform: translateY(0px);">
+        <section class="section onload" id="top" data-top="0">
+            <div class="container">
+                <video id="video" autoplay="" muted="" playsinline=""
+                    poster="https://pluszero.co.kr/static/img/intro.f488a90aa9fa.png">
+                    <source src="https://pluszero.co.kr/static/img/intro.b978388edd98.webm" type="video/webm">
+                    <source src="https://pluszero.co.kr/static/img/intro.e67f8da1161f.mp4" type="video/mp4">
+                </video>
+                <div class="headline">
+                    <h1 data-evg-campaign-id="b2iK7" data-evg-experience-id="YakSc" data-evg-user-group="Control">PLUS
+                        ZERO</h1>
+                    <h1>고객의 매출에 <span style="color: var(--primary);">0을 더합니다.</span></h1>
+                </div>
+            </div>
+        </section>
+        <section class="section onload" id="top" data-top="0">
+        </section>
+        <section class="section onload" id="top" data-top="0">
+        </section>
+        <section class="section onload" id="top" data-top="0">
+        </section>
+        <section class="section onload" id="top" data-top="0">
+        </section>
+        <section class="section onload" id="top" data-top="0">
+        </section>
+        <section class="section onload" id="top" data-top="0">
+        </section>
+        <section class="section onload" id="top" data-top="0">
+        </section>
+    </main>
+    
+    
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://pluszero.co.kr/static/js/pz_official.b8d56fd901f2.js"></script>
+    <!-- Bootstrap JS -->
+    <script type="text/javascript"
+        src="https://pluszero.co.kr/static/js/bootstrap/bootstrap.bundle.min.0aa8d64e726c.js"></script>
+
+
+
+
+    <!-- [S] cookie setting area -->
+
+    <style type="text/css">
+        .cookie {
+            width: 90vw;
+            background: linear-gradient(to right, #E0EEDC, #A9D3EF);
+            position: fixed;
+            bottom: 5vh;
+            border-radius: 10px;
+            left: 5vw;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .cookie .text {
+            flex: 1 0 0;
+        }
+
+        .cookie .button {
+            flex: 0 1 0;
+            text-align: center;
+        }
+
+        .text p {
+            color: #1D2D35;
+            margin-bottom: 0;
+        }
+
+        .cookie .accept {
+            background-color: #0071e3;
+            color: #fff !important;
+            border-radius: 15px;
+            font-size: 16px;
+            width: 100%;
+            margin: 4px 0;
+        }
+
+        .cookie .accept:hover {
+            background-color: #0077ed;
+        }
+
+        .cookie .custom {
+            background-color: #e8e8ed;
+            color: #000 !important;
+            border-radius: 15px;
+            font-size: 16px;
+            width: 100%;
+            margin: 4px 0;
+        }
+
+        .cookie .custom:hover {
+            background-color: #ebebf0;
+        }
+
+        @media (min-width: 1200px) {
+            .cookie {
+                width: 25vw;
+                bottom: 1rem;
+                left: 1rem;
+            }
+
+            .cookie .text {
+                flex: 1 0 0%;
+            }
+
+            .cookie .button {
+                flex: 0 1 0%;
+            }
+        }
+    </style>
+
+
+    <div class="cookie">
+        <div class="text">
+            <p>
+                Pluszero,<br>
+                you agree to our <a href="/cookie-policy" target="_blank"
+                    style="color: blue; text-decoration: underline;">Cookie Policy</a>.
+            </p>
+        </div>
+        <div class="button">
+            <a class="btn accept">Accept</a>
+            <!--a class="btn custom">Custom</a-->
+        </div>
+    </div>
+
+    <div id="index"><input type="radio" name="index" value="top"><input type="radio" name="index" value="service"><input
+            type="radio" name="index" value="process"><input type="radio" name="index" value="successstory"><input
+            type="radio" name="index" value="partners"><input type="radio" name="index" value="reference"><input
+            type="radio" name="index" value="contactus"><input type="radio" name="index" value="footer"></div>
+
+    <div
+        style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
+        <div
+            style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;">
+        </div>
+        
+    </div>
+</body>
+
+</html>
