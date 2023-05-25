@@ -1,4 +1,5 @@
 SELECT
+    event_date,
     traffic_source.source as source,
     count(case when event_name="scroll" then 1 end) as scroll
   FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`
